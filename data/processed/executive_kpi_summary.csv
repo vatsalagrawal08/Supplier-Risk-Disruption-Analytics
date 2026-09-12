@@ -1,0 +1,12 @@
+metric,value
+Total Suppliers Analysed,20.0
+Critical-Risk Suppliers,10.0
+High-Risk Suppliers,10.0
+Total Affected Parts,147.0
+Total Critical Parts Affected,30.0
+Total Order Quantity Exposed,229445.0
+Total Procurement Value Exposed,307287938.30999994
+Total Critical Procurement Value Exposed,53051732.89
+Total Backorder Exposure,464.0
+Total Blocked Quantity,5890.0
+Single-Source Parts,147.0

@@ -1,0 +1,21 @@
+supplier_id,disruption_exposure_rank,risk_category,recommended_action,recommendation_urgency,recommendation_rationale
+SUP027,3,Critical,Develop inventory and supply continuity contingency plan,High,High disruption exposure coincides with high daily consumption.
+SUP040,4,High,Develop inventory and supply continuity contingency plan,High,High disruption exposure coincides with high daily consumption.
+SUP014,7,Critical,Qualify alternate suppliers for critical parts,High,Multiple critical parts are exposed and the affected parts are single-source.
+SUP006,8,High,Initiate supplier corrective action and operational recovery review,High,Elevated blocked quantity or backorder exposure indicates operational disruption.
+SUP034,9,High,Qualify alternate suppliers for critical parts,High,Multiple critical parts are exposed and the affected parts are single-source.
+SUP033,10,Critical,Initiate supplier corrective action and operational recovery review,High,Elevated blocked quantity or backorder exposure indicates operational disruption.
+SUP005,11,High,Qualify alternate suppliers for critical parts,High,Multiple critical parts are exposed and the affected parts are single-source.
+SUP021,12,Critical,Qualify alternate suppliers for critical parts,High,Multiple critical parts are exposed and the affected parts are single-source.
+SUP039,14,Critical,Qualify alternate suppliers for critical parts,High,Multiple critical parts are exposed and the affected parts are single-source.
+SUP015,16,Critical,Qualify alternate suppliers for critical parts,High,Multiple critical parts are exposed and the affected parts are single-source.
+SUP023,20,Critical,Qualify alternate suppliers for critical parts,High,Multiple critical parts are exposed and the affected parts are single-source.
+SUP013,1,Critical,Immediate alternate-source qualification for critical parts,Immediate,High disruption exposure combined with multiple critical parts and single-source dependence.
+SUP036,2,High,Immediate alternate-source qualification for critical parts,Immediate,High disruption exposure combined with multiple critical parts and single-source dependence.
+SUP008,4,High,Immediate alternate-source qualification for critical parts,Immediate,High disruption exposure combined with multiple critical parts and single-source dependence.
+SUP026,17,High,Routine supplier monitoring,Low,No dominant disruption driver identified relative to the other suppliers.
+SUP018,18,High,Routine supplier monitoring,Low,No dominant disruption driver identified relative to the other suppliers.
+SUP009,19,High,Routine supplier monitoring,Low,No dominant disruption driver identified relative to the other suppliers.
+SUP038,6,High,Review procurement concentration and supply continuity options,Medium,High procurement value is exposed if the supplier becomes unavailable.
+SUP024,13,Critical,Review procurement concentration and supply continuity options,Medium,High procurement value is exposed if the supplier becomes unavailable.
+SUP002,15,Critical,Enhanced supplier monitoring and periodic risk review,Medium,"Supplier is classified as Critical risk, although disruption exposure is comparatively lower."
