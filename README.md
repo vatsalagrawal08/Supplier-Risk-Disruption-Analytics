@@ -212,38 +212,91 @@ The KPIs help management monitor:
 * Disruption risk.
 * Operational performance.
 
-## <u><strong>8. Key Findings</strong></u>
+## **8. Key Findings**
 
-The final findings should be updated based on the actual results generated from the notebooks and processed datasets.
-
-The analysis is intended to identify:
-
-* The suppliers with the highest disruption risk.
-* Suppliers with frequent quality incidents.
-* Suppliers with poor purchase order performance.
-* Operational areas requiring improvement.
-* The most important supply chain risk indicators.
-* Suppliers requiring corrective action or closer monitoring.
+The analysis identified supplier-level operational risks by combining delivery performance, lead-time stability, quality incidents, business criticality, and order-volume exposure.
 
 ### Important Findings from the Analysis
 
-1. **Highest-risk suppliers:**
-   Add the names of the highest-risk suppliers identified in `supplier_risk_assessment.csv`.
+8.1. **Highest-risk suppliers:**  
+   The suppliers with the highest overall supplier priority scores were:
 
-2. **Top disruption-prone suppliers:**
-   Add the suppliers identified in `top_disruption_suppliers.csv`.
+   - **SUP023** — Priority Score: **80.225**
+   - **SUP033** — Priority Score: **77.625**
+   - **SUP013** — Priority Score: **75.1125**
+   - **SUP039** — Priority Score: **73.075**
+   - **SUP021** — Priority Score: **71.6625**
 
-3. **Quality-related findings:**
-   Add the major quality issues and the suppliers associated with them.
+   These suppliers require the highest level of management attention because of their combined operational risk and business criticality.
 
-4. **Purchase order findings:**
-   Add the important purchase order-related patterns discovered during analysis.
+8.2. **Top disruption-prone suppliers:**  
+   Suppliers showing particularly poor delivery performance included:
 
-5. **Executive KPI findings:**
-   Add the major KPIs from `executive_kpi_summary.csv`.
+   - **SUP033** — **96.35%** late deliveries
+   - **SUP023** — **73.57%** late deliveries
+   - **SUP002** — **71.82%** late deliveries
+   - **SUP026** — **70.59%** late deliveries
+   - **SUP039** — **70.26%** late deliveries
+   - **SUP015** — **70.22%** late deliveries
 
-6. **Management actions:**
-   Add the most important recommendations from `management_actions.csv`.
+   SUP033 was the most extreme case, with **608 late orders out of 631 total orders**, an average delivery delay of **6.09 days**, and a maximum delay of **17 days**.
+
+8.3. **Quality-related findings:**  
+   Quality incident rates increased across the supplier risk categories. The average quality incident rate was:
+
+   - Low-risk suppliers: **0.96%**
+   - Medium-risk suppliers: **0.95%**
+   - High-risk suppliers: **1.43%**
+   - Critical-risk suppliers: **1.69%**
+
+   This indicates that high-risk and critical-risk suppliers are more likely to require quality monitoring, supplier audits, and corrective action.
+
+8.4. **Purchase order and delivery findings:**  
+   The overall mean supplier late-delivery rate was **56.56%**. Delivery reliability was strongly associated with OTIF performance, with a Spearman correlation of approximately **-0.99** between late-delivery rate and OTIF rate.
+
+   Lead-time instability was also strongly associated with late deliveries, with a Spearman correlation of approximately **+0.91**. This shows that suppliers with inconsistent lead times are more likely to experience delivery delays.
+
+8.5. **Executive KPI findings:**  
+   The supplier risk assessment covered **40 suppliers**, divided into four risk categories using quartile-based segmentation:
+
+   - Low Risk: **10 suppliers**
+   - Medium Risk: **10 suppliers**
+   - High Risk: **10 suppliers**
+   - Critical Risk: **10 suppliers**
+
+   The risk categories showed a clear deterioration in supplier performance:
+
+   | Risk Category | Late Delivery Rate | Quality Incident Rate | Performance Risk |
+   |---|---:|---:|---:|
+   | Low | 41.95% | 0.96% | 23.44 |
+   | Medium | 50.92% | 0.95% | 38.53 |
+   | High | 60.72% | 1.43% | 61.56 |
+   | Critical | 72.64% | 1.69% | 81.47 |
+
+   Critical suppliers had the highest late-delivery rate, quality incident rate, lead-time instability, and performance risk.
+
+8.6. **Business criticality findings:**  
+   Suppliers with high business exposure included:
+
+   - **SUP036** — Business Criticality Score: **90.50**
+   - **SUP012** — **88.00**
+   - **SUP030** — **86.00**
+   - **SUP013** — **79.50**
+   - **SUP038** — **70.25**
+
+   SUP012 supplied the highest number of critical parts, with **5 critical parts**, while SUP015 and SUP036 supplied **4 critical parts each**.
+
+8.7. **Management actions:**  
+   Based on the findings, management should focus on:
+
+   - Closely monitoring Critical and High-risk suppliers.
+   - Investigating suppliers with consistently high late-delivery rates.
+   - Conducting quality reviews and corrective-action programs for suppliers with frequent quality incidents.
+   - Reviewing suppliers with high critical-part exposure.
+   - Evaluating alternate suppliers for critical parts.
+   - Reducing dependency on suppliers with poor delivery reliability and high business exposure.
+   - Using supplier risk scores to prioritize audits, supplier development, and disruption scenario analysis.
+
 
 ## <u><strong>9. Business Impact</strong></u>
 
