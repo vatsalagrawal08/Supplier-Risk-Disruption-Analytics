@@ -314,28 +314,11 @@ business_analytics_project1/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── parts_master.csv
-│   │   ├── purchase_orders.csv
-│   │   ├── quality_incidents.csv
-│   │   └── supply_chain_history.csv
-│   │
 │   └── processed/
-│       ├── disruption_scenario_analysis.csv
-│       ├── executive_kpi_summary.csv
-│       ├── management_actions.csv
-│       ├── purchase_orders_processed.csv
-│       ├── quality_incidents_processed.csv
-│       ├── supplier_features.csv
-│       ├── supplier_master.csv
-│       ├── supplier_recommendations.csv
-│       ├── supplier_risk_assessment.csv
-│       └── top_disruption_suppliers.csv
 │
 ├── notebooks/
-│   └── Data analysis and preprocessing notebooks
 │
 ├── tableau/
-│   └── Tableau dashboard files
 │
 ├── docs/
 │   └── Project documentation
